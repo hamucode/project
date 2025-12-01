@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Build directories
+target/
+bin/
+out/
+
+# Database credentials
+database.properties
