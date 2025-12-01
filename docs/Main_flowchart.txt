@@ -1,0 +1,44 @@
+## **Visual Flow:**
+```
+┌─────────────────────────────┐
+│      MAIN MENU              │
+│  1. Login as Member         │
+│  2. Login as Trainer        │
+│  3. Login as Admin          │
+│  4. Register New Member     │
+│  5. Exit                    │
+└─────────────────────────────┘
+         │
+         ├─(1)─→ Enter email/password → MEMBER MENU
+         │                                   │
+         │                          ┌────────┴────────┐
+         │                          │ 1. Dashboard    │
+         │                          │ 2. Profile      │
+         │                          │ 3. PT Session   │
+         │                          │ 4. Classes      │
+         │                          │ 5. Health       │
+         │                          │ 6. Logout       │
+         │                          └─────────────────┘
+         │
+         ├─(2)─→ Enter email/password → TRAINER MENU
+         │                                   │
+         │                          ┌────────┴────────┐
+         │                          │ 1. Availability │
+         │                          │ 2. Schedule     │
+         │                          │ 3. Search       │
+         │                          │ 4. Logout       │
+         │                          └─────────────────┘
+         │
+         ├─(3)─→ Enter email/password → ADMIN MENU
+         │                                   │
+         │                          ┌────────┴────────┐
+         │                          │ 1. Rooms        │
+         │                          │ 2. Classes      │
+         │                          │ 3. Equipment    │
+         │                          │ 4. Billing      │
+         │                          │ 5. Logout       │
+         │                          └─────────────────┘
+         │
+         ├─(4)─→ Call MemberFunctions.userRegistration()
+         │
+         └─(5)─→ Exit program
