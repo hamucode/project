@@ -29,8 +29,8 @@ COMP 3005 Final Project - Fall 2025
 - [x] TrainerFunctions - Set Availability
 - [x] TrainerFunctions - View Schedule
 - [x] TrainerFunctions - Member Lookup
-- [ ] AdminFunctions - Room Booking
-- [ ] AdminFunctions - Class Management
+- [x] AdminFunctions - Room Booking
+- [x] AdminFunctions - Class Management
 
 ## Video Demo
 [Link to demo video - TBD]
