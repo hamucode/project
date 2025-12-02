@@ -300,9 +300,7 @@ public class Main {
             System.out.println("========================================");
             System.out.println("1. Manage Room Bookings");
             System.out.println("2. Manage Class Schedule");
-            System.out.println("3. Monitor Equipment Maintenance");
-            System.out.println("4. Process Billing & Payments");
-            System.out.println("5. Logout");
+            System.out.println("3. Logout");
             System.out.println("========================================");
             System.out.print("Enter your choice: ");
 
@@ -316,17 +314,11 @@ public class Main {
                     adminFunctions.manageClassSchedule();
                     break;
                 case 3:
-//                    adminFunctions.monitorEquipmentMaintenance();
-                    break;
-                case 4:
-//                    adminFunctions.processBillingAndPayments();
-                    break;
-                case 5:
                     System.out.println("\nLogging out...");
                     inAdminMenu = false;
                     break;
                 default:
-                    System.out.println("Invalid choice! Please select 1-5.");
+                    System.out.println("Invalid choice! Please select 1-3.");
             }
         }
     }
