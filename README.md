@@ -66,4 +66,4 @@ Use the following credentials to quickly log in and test the system's roles:
 - [x] AdminFunctions - Class Management
 
 ## Video Demo
-Part1: https://drive.google.com/file/d/1phECrh9R0vmwKxPwqfUI3c5e_laW2nu7/view?usp=drive_link
+https://www.youtube.com/watch?v=yyMbmysdSWo
