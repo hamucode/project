@@ -20,11 +20,12 @@ COMP 3005 Final Project - Fall 2025
 
 ## Implementation Progress
 - [x] Database Schema (DDL)
-- [] Sample Data (DML)
+- [x] Sample Data (DML)
 - [x] MemberFunctions - User Registration 
-- [ ] MemberFunctions - Profile Management
-- [ ] MemberFunctions - Dashboard
-- [ ] MemberFunctions - PT Scheduling
+- [x] MemberFunctions - Profile Management
+- [x] MemberFunctions - Dashboard
+- [x] MemberFunctions - PT Scheduling
+- [x] MemberFunctions - Log Health Metrics
 - [ ] TrainerFunctions - Set Availability
 - [ ] TrainerFunctions - View Schedule
 - [ ] AdminFunctions - Room Booking

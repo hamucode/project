@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Main {
 
     // Database connection details
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/fitness_club";
-    private static final String DB_USER = "your_username";
-    private static final String DB_PASSWORD = "your_password";
+    private static final String DB_URL = "jdbc:postgresql://localhost:5432/project";
+    private static final String DB_USER = "postgres";
+    private static final String DB_PASSWORD = "postgres";
 
     private static Connection connection;
     private static Scanner scanner;
@@ -215,9 +215,9 @@ public class Main {
             System.out.println("1. View Dashboard");
             System.out.println("2. Profile Management");
             System.out.println("3. Schedule Personal Training Session");
-            System.out.println("4. Register for Group Class");
-            System.out.println("5. Log Health Metrics");
-            System.out.println("6. Logout");
+
+            System.out.println("4. Log Health Metrics");
+            System.out.println("5. Logout");
             System.out.println("========================================");
             System.out.print("Enter your choice: ");
 
@@ -233,18 +233,16 @@ public class Main {
                 case 3:
                     memberFunctions.schedulePersonalSession(memberId);
                     break;
+
                 case 4:
-                    memberFunctions.registerForClass(memberId);
-                    break;
-                case 5:
                     memberFunctions.logHealthMetrics(memberId);
                     break;
-                case 6:
-                    System.out.println("\n👋 Logging out...");
+                case 5:
+                    System.out.println("\nLogging out...");
                     inMemberMenu = false;
                     break;
                 default:
-                    System.out.println("Invalid choice! Please select 1-6.");
+                    System.out.println("Invalid choice! Please select 1-5.");
             }
         }
     }
@@ -277,8 +275,8 @@ public class Main {
                     trainerFunctions.viewSchedule(trainerId);
                     break;
                 case 3:
-                    trainerFunctions.searchMember(trainerId);
-                    break;
+//                    trainerFunctions.searchMember(trainerId);
+//                    break;
                 case 4:
                     System.out.println("\nLogging out...");
                     inTrainerMenu = false;
@@ -318,10 +316,10 @@ public class Main {
                     adminFunctions.manageClassSchedule();
                     break;
                 case 3:
-                    adminFunctions.monitorEquipmentMaintenance();
+//                    adminFunctions.monitorEquipmentMaintenance();
                     break;
                 case 4:
-                    adminFunctions.processBillingAndPayments();
+//                    adminFunctions.processBillingAndPayments();
                     break;
                 case 5:
                     System.out.println("\nLogging out...");
