@@ -275,8 +275,8 @@ public class Main {
                     trainerFunctions.viewSchedule(trainerId);
                     break;
                 case 3:
-//                    trainerFunctions.searchMember(trainerId);
-//                    break;
+                    trainerFunctions.searchMember(trainerId);
+                    break;
                 case 4:
                     System.out.println("\nLogging out...");
                     inTrainerMenu = false;
