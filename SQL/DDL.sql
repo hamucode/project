@@ -234,6 +234,10 @@ ON ClassRegistrations(member_id);
 CREATE INDEX idx_trainer_availability_trainer 
 ON TrainerAvailability(trainer_id, day_of_week);
 
+-- speed up member look up since it is the largest table as there are more members than trainers for example
+CREATE INDEX idx_member_name_search 
+ON Member (LOWER(LastName), LOWER(FirstName));
+
 -- ============================================================================
 -- END OF DDL.sql
 -- ============================================================================
