@@ -3,7 +3,7 @@ COMP 3005 Final Project - Fall 2025
 
 ## Team Members
 - [Muhammad Salameh 101295139]
-- [Partner Name]
+- [Abdurrahman Al Choughri 101274144]
 
 ## Project Structure
 - `/sql` - Database schema and sample data
