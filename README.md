@@ -26,8 +26,9 @@ COMP 3005 Final Project - Fall 2025
 - [x] MemberFunctions - Dashboard
 - [x] MemberFunctions - PT Scheduling
 - [x] MemberFunctions - Log Health Metrics
-- [ ] TrainerFunctions - Set Availability
-- [ ] TrainerFunctions - View Schedule
+- [x] TrainerFunctions - Set Availability
+- [x] TrainerFunctions - View Schedule
+- [x] TrainerFunctions - Member Lookup
 - [ ] AdminFunctions - Room Booking
 - [ ] AdminFunctions - Class Management
 
